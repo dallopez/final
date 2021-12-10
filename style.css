@@ -1,0 +1,112 @@
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: Center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  height: 40px;
+  width: inherit;
+}
+
+.instrumentPanel.Fender:hover {
+  background-color: red;
+  color: white;
+}
+
+.instrumentPanel.Yamaha:hover {
+  background-color: green;
+  color: white;
+}
+
+.instrumentPanel.Maton:hover {
+  background-color: blue;
+  color: white;
+}
+
+.instrumentPanel {
+  height: 300px;
+  width: 230px;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  border: medium solid black;
+}
+
+.instrumentPicture {
+  height: 240px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.no-image {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 240px;
+  color: black !important;
+}
+
+.Details {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+img {
+  height: 240px;
+  width: 220px;
+}
+
+
+
+.infoWrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.infoContainer {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.infoHeader h3 {
+  margin-top: 0;
+  color: #fb5607;
+}
+
+.infoBody {
+  margin: 20px 0;
+}
+
+.info-button-float-left {
+  float: left;
+}
+
+.info-btn-float-right {
+  float: right;
+}
+
+.info-enter {
+  opacity: 0;
+}
+
+.info-leave-active {
+  opacity: 0;
+}
+
+.info-enter .info-container,
+.info-leave-active .info-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
